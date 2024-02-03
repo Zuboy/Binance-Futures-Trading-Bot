@@ -176,7 +176,7 @@ def check_positions():
                 error.status_code, error.error_code, error.error_message
             )
         )
-
+# stratergy by AISHWARYARAJ CHANDEL - ( Zuboy ) DO NOT USE IT without understanding or else you might end up liquidated !!
 
 # Close open orders for the needed symbol. If one stop order is executed and another one is still there
 def close_open_orders(symbol):
@@ -201,3 +201,5 @@ def check_cross(data):
         return 'sell'
     else:
         return None
+    
+
